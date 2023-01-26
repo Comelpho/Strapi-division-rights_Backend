@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "third_tables",
+  "info": {
+    "singularName": "third-table",
+    "pluralName": "third-tables",
+    "displayName": "third-table "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

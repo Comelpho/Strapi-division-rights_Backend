@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "second_tables",
+  "info": {
+    "singularName": "second-table",
+    "pluralName": "second-tables",
+    "displayName": "second-table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
