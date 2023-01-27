@@ -4,7 +4,8 @@
   "info": {
     "singularName": "third-table",
     "pluralName": "third-tables",
-    "displayName": "third-table "
+    "displayName": "third-table ",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,12 @@
     },
     "text": {
       "type": "richtext"
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "third_tables"
     }
   }
 }

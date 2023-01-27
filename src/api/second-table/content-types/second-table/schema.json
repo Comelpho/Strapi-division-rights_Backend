@@ -17,6 +17,12 @@
     },
     "text": {
       "type": "richtext"
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "second_tables"
     }
   }
 }

@@ -68,6 +68,18 @@
       "relation": "manyToMany",
       "target": "api::first-table.first-table",
       "inversedBy": "owner"
+    },
+    "second_tables": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::second-table.second-table",
+      "mappedBy": "owner"
+    },
+    "third_tables": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::third-table.third-table",
+      "mappedBy": "owner"
     }
   }
 }
